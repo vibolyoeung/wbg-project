@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-    <meta name="author" content=""><link rel="stylesheet/less" type="text/css" href="themes/less/bootstrap.less">
+    <meta name="author" content="">
+    <link rel="stylesheet/less" type="text/css" href="themes/less/bootstrap.less">
 	<!-- 
 	<link rel="stylesheet" href="themes/style/bootstrap.min.css" />-->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
@@ -19,6 +20,12 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <style type="text/css">
+	.table td{
+		border:none;
+		vertical-align:middle;
+		}
+	</style>
   </head>
 <body data-offset="40">
 <header class="header">
@@ -146,6 +153,7 @@
 		?>
         <div class="row">
 	<div class="span3">
+    	
 		<div class="thumbnail">
 			<img src="images/responsive.png" title="eCommerce template" alt="eCommerce template">
 			<div class="caption">
@@ -164,6 +172,7 @@
 			<li><a href="index.html">Home</a> <span class="divider">/</span></li>
 			<li class="active">Web development</li>
 		</ul>-->
+       
 		<div class="thumbnail">
                 <?php
 					include("pages/".$_GET['page'].".php");
