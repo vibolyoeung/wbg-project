@@ -3,6 +3,8 @@
     <div class="span9">
         <div class="row">
         	<div class="span5">
+            	<h4 id="contact">Contact Form</h4>
+            	<?php if(isset($_SESSION['send_msg'])){echo $_SESSION['send_msg'];unset($_SESSION['send_msg']);} ?>
             	<form action="action/send_mail.php" method="post">
                             <label>Name<span class="text-error">*</span> <span id="error_contactName" class="error_alert"></span></label>
                             <input type="text" id="contactName" name="contactName">
@@ -10,14 +12,18 @@
                             <label>Email<span class="text-error">*</span><span id="error_contactEmail" class="error_alert"></span></label>
                             <input type="text" id="contactEmail" name="contactEmail">                       
                             <label>Message<span class="text-error">*</span><span id="error_msg" class="error_alert"></span></label>
-                            <textarea name="msg" id="msg" cols="10" rows="3"></textarea>
-                            <label>Security Code<span class="text-error">*</span><span id="error_security" class="error_alert"></span></label><br>
+                            <textarea name="msg" id="msg" cols="10" style="width:350px;" rows="3"></textarea>
+                            <label>Security Code<span class="text-error">*</span><span id="error_security" class="error_alert"></span></label>
+                            <img class="img-polaroid" style="max-height:30px;max-width:130px;" src="captcha/CaptchaSecurityImages.php?width=130&amp;height=30&amp;characters=5" alt="webbest security code" />
+                            <input style="height:30px;margin-bottom:0;" type="text" id="captchaStr" name="captchaStr" class="captchaStr"><br />
+                            <?php //echo $_SESSION['security_code']; ?>
                             
-                            <input type="text" id="captchaStr" name="captchaStr" class="captchaStr">
-                            <input type="submit" class="btn" value="Submit">
+                            <br />
+                            <input type="submit" class="btn btn-primary" value="Submit">
                     </form>
             </div>
             <div class="span4" style="margin-left:3px;">
+            			<h4 id="contact">Contact Information</h4>
                        <table class="table" border="0">
                        			<tbody>
                        			<tr>

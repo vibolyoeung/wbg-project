@@ -2,7 +2,12 @@
                 <div class="caption">
                     <h4>About Us</h4>
             
-                <p>Webbest group is one group of developing web application, which located in Phom Penh.We are warmly to invite you to visit our website to see our service for improving your business or your need. Webbest group provides you a lot of services and have many expert developers, who have many experiences in web developing field. To make the trust from the customer We are always providing the good quality, security, user friendly, and standard of our products.</p>
+                <p>
+                   Webbest group is a created business specializing in web development field, which located in Phnom Penh, Cambodia. We provide you a lot of services with high quality. Our experienced teams of web-developers and designers have the capability to create fully-functional professional websites and web-applications. We are always providing the good quality, security, user friendly, and standard of our products. 
+				</p>
+				<p>
+				   As a new start-up business, we are committed to investing to our team through having team training every week, sharing innovation of new technology to our team.  
+				</p>
                 
                 <h4>Mission</h4>
                 
