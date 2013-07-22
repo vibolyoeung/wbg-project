@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<?php session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -80,9 +81,7 @@
 	<div class="well well-small">
 		<h3 class="text-success"> Welcome !</h3>	
 		<p>
-		We are specialized in web design, development and for different devices such as Desktop, Mobiles and Tablets. 
-		Concidering with the resources and ongrowing customers, we recently introduce cheapest and best website design packages.
-		This is the most popular and beneficial for everyone.
+		We are specialized in web design, development and for different devices such as Desktop, Mobiles and Tablets. Webbest understand clearly about client needs and provide the excellence result for their business goal.  We have high commitment to produce high quality products for clients.
 		</p>
 	</div>
 </div>
@@ -192,6 +191,8 @@
 ?>
 
 <div class="row">
+	<br />
+    <br />
 	<div class="span2"><img src="images/PHP_codeigniter.png" /></div>
     <div class="span2"><img src="images/Joomla_Logo_Slogan.png" /></div>
     
