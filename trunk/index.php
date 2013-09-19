@@ -28,6 +28,7 @@
 	iframe{
 		height:300px;
 		}
+	.media{margin:10px}
 	</style>
   </head>
 <body data-offset="40">
@@ -139,7 +140,7 @@
 				<div class="well well-small">
                 	<img src="images/design-screen.png" />
 					<h4>Web Design</h4>
-					<a href="details.html"><span class="label label-info">MORE</span></a>
+					<a href="index.php?page=services"><span class="label label-info">MORE</span></a>
 				</div>
 			</div>
 			
@@ -147,21 +148,21 @@
 				<div class="well well-small">
                 	<img src="images/web-design-banner.png" />
 					<h4>Development</h4>
-					<a href="details.html"><span class="label label-info">MORE</span></a>
+					<a href="index.php?page=services"><span class="label label-info">MORE</span></a>
 				</div>
 			</div>
 			<div class="span3">
 				<div class="well well-small">
                 	<img src="images/banner_web_soloution.png" />
 					<h4>Consulting</h4>
-					<a href="details.html"><span class="label label-info">MORE</span></a>
+					<a href="index.php?page=services"><span class="label label-info">MORE</span></a>
 				</div>
 			</div>
 			<div class="span3">
 				<div class="well well-small">
                		<img src="images/services_banner.png" />
 					<h4>Traning</h4>
-					<a href="details.html"><span class="label label-info">MORE</span></a>
+					<a href="index.php?page=services"><span class="label label-info">MORE</span></a>
 				</div>
 			</div>
 			
@@ -182,7 +183,7 @@
 		<div class="thumbnail">
 			<img src="images/side_bar_responsive.png" title="eCommerce template" alt="eCommerce template">
 			<div class="caption">
-            	<hr />
+            	<hr style="margin:0;" />
 			  <h5>Specialize Offer</h5>
 			  <p> 
 				"We provide professional website design and development services for Mobile, Tablet, Desktop and Terminal in affordable rate"
@@ -271,11 +272,11 @@
     <ul class="nav nav-pills">
         <li><a href="index.php">Home</a></li>
         <li><a href="index.php?page=about">About Us</a></li>
-        <li><a href="index.php?page=service">Service</a></li>
+        <li><a href="index.php?page=services">Service</a></li>
         <li><a href="index.php?page=contact">Contact Us</a></li>
     </ul>
     <hr class="soften"/>
-    <p>Copyright © 2012 WebBest. All Rights Reserved.<br/><br/></p>
+    <p><img src="images/webBest_logo_stand_alone.png" />Copyright © 2012 WebBest. All Rights Reserved.<br/><br/></p>
 </div><!-- /container -->
 </footer>
 
