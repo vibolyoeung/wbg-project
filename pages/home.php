@@ -1,4 +1,4 @@
-<div class="row">
+<!--<div class="row">
 	<div class="span6">
 	<div class="well well-small">
 		<h3 class="text-success"> Welcome !</h3>	
@@ -22,4 +22,4 @@
 		
 	</div>
 	</div>
-</div>
+</div>-->
